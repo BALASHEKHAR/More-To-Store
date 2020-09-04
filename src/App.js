@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react';/*
 import Favourite from './components/favourite';
 import Home from './components/Home';
 import Settings from './components/Settings';
@@ -13,11 +13,13 @@ import {
   Route,
  
 } from "react-router-dom";
-
+*/
 function App() {
   return (
     <div className="App">
-     <Router>
+    <h1>hi there</h1>
+    </div>
+     /*<Router>
      <Switch>
 
       <Route path="/home">
@@ -52,8 +54,8 @@ function App() {
       render={()=><ErrorPage404 />}
       />
       </Switch>
-     </Router>
-    </div>
+     </Router>*/
+    
   ); 
 }
 
