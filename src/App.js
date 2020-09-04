@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React wiht jagan
-        </a>
-      </header>
+      <h1> First React Deploy in Github </h1>
+      <p> Instead, it will copy all the configuration files 
+      and the transitive dependencies (webpack, Babel, ESLint, 
+      etc) right into your project so you have full control over
+       them. All of the commands except eject will still work, 
+       but they will point to the copied scripts so you can tweak
+       them. At this point you’re on your own.
+       </p>
+       
     </div>
   );
 }
