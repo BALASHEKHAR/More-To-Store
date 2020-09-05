@@ -8,18 +8,18 @@ import "firebase/firestore";
 import "firebase/storage";
 
 
+
+
 const firebaseConfig = {
-  apiKey: "AIzaSyA5Gx6cs7yfnqGxt7PecuYpRkwgy1EaBDY",
-  authDomain: "jagan-47f02.firebaseapp.com",
-  databaseURL: "https://jagan-47f02.firebaseio.com",
-  projectId: "jagan-47f02",
-  storageBucket: "jagan-47f02.appspot.com",
-  messagingSenderId: "774113312224",
-  appId: "1:774113312224:web:95c9f5aa20724594b97f85",
-  measurementId: "G-VJKPGL9TTN"
+  apiKey: "AIzaSyBCAt2ePMCpcQLTaxg5go0o0HyWvc-fwKE",
+  authDomain: "my-mall-582e3.firebaseapp.com",
+  databaseURL: "https://my-mall-582e3.firebaseio.com",
+  projectId: "my-mall-582e3",
+  storageBucket: "my-mall-582e3.appspot.com",
+  messagingSenderId: "279993012591",
+  appId: "1:279993012591:web:c86c9c7cb93b79c205589a",
+  measurementId: "G-QMCCQD806T"
 };
-
-
 
 
 // Initialize Firebase
@@ -28,5 +28,7 @@ firebase.initializeApp(firebaseConfig);
 export const firebaseAuth=firebase.auth();
 
 export const firestore=firebase.firestore();
+
+export const storageRef=firebase.storage().ref();
 
 export default firebase;
