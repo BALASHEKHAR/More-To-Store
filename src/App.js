@@ -1,62 +1,18 @@
-import React from 'react';/*
-import Favourite from './components/favourite';
-import Home from './components/Home';
-import Settings from './components/Settings';
-import ErrorPage404 from './components/ErrorPage404';
-import Login from './components/Login';
-import Signup from './components/Signup';
-import PasswordSent from './components/passwordSent'
-import Auth from './components/auth';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
- 
-} from "react-router-dom";
-*/
+import React from 'react';
+
 function App() {
   return (
     <div className="App">
-    <h1>hi there</h1>
+      <h1> First React Deploy in Github </h1>
+      <p>  into your project so you have full control over
+       them. All of the commands except eject will still work, 
+       but they will point to the copied scripts so you can tweak
+       them. At this point you’re on your own.
+       </p>
+       
     </div>
-     /*<Router>
-     <Switch>
-
-      <Route path="/home">
-      <Auth>
-      <Home/>
-      </Auth>
-      </Route>
-
-      <Route path="/forget_password">
-      <PasswordSent/>
-      </Route>
-
-      <Route path="/settings">
-      <Settings/>
-      </Route>
-
-      <Route path="/favourite">
-      <Favourite/>
-      </Route>
-
-      <Route exact path="/Login">
-      <Auth nonAuth={true}>
-      <Login />
-      </Auth>
-      </Route>
-      <Route exact path="/signup">
-      <Auth nonAuth={true}>
-      <Signup/>
-      </Auth>
-      </Route>
-      <Route path="*" 
-      render={()=><ErrorPage404 />}
-      />
-      </Switch>
-     </Router>*/
-    
-  ); 
+  );
 }
 
 export default App;
+
