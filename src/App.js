@@ -1,18 +1,30 @@
-import React from 'react';
+import React,{Component} from 'react';
+import Login from './UI-Pages/Login';
+import Dashboard from './UI-Pages/Dashboard';
+import {BrowserRouter , Switch , Route ,Redirect} from 'react-router-dom';
+import Auth from './Components/Auth';
+import { HashRouter } from 'react-router-dom';
 
-function App() {
+function App(){ 
   return (
-    <div className="App">
-      <h1> First React Deploy in Github </h1>
-      <p>  hi there these is my first into your project so you have full control over
-       them. All of the commands except eject will still work, 
-       but they will point to the copied scripts so you can tweak
-       them. At this point you’re on your own.
-       </p>
-       
-    </div>
+    <HashRouter>
+    <Switch>
+
+    <Route exact path="/">
+    <Auth>
+    <Dashboard/>
+    </Auth>
+    </Route>
+
+    <Route exact path="/Login">
+    <Auth nonAuth={true}>
+    <Login />
+    </Auth>
+    </Route>
+
+    <Route path="*" render={()=>"404 not found!"}/>
+    </Switch>
+    </HashRouter>
   );
 }
-
 export default App;
-
