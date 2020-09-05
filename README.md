@@ -1,25 +1,19 @@
-## Available Scripts
+# About 
+This is An admin panel of `MORE-TO-STORE`. More-To-Store is an app where you can buy items like flipcart, Amazon.
+More-To-Store is an Android App you can find it in apple store and google play store.
 
-In the project directory, you can run:
+## More-To-Store
+``` base 
+More-To-Store as an Admin panel. This is the Admin panel Created by using REACT JS.
+It uses Materail UI, Material Icons, react-redux, Redux, Firebase, Redux-Thunk.
+```
 
-### `npm start`
+### Live Website
+Admin Panel is Hosted on github Pages. You can see live demo of my project. 
+Link to the live More-To-Store Admin Panel is given below.
+[link](https://balashekhar.github.io/react-deploy/)
+<br/>
+<br/>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+``feel free to give star and pull issues.``
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-### `Live Site`
-
-[Go to Site](https://balashekhar.github.io/react-deploy/)
